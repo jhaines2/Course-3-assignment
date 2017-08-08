@@ -1,12 +1,12 @@
-Description of original data source
-—————————————————————————————————————
+### Description of original data source
+
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 
-Description summary analysis data
-—————————————————————————————————
+### Description summary analysis data
+
 The summary analysis data (“run_analysis.R”) is produced based on the original data source described above, but with various steps to tidy and summarise the data including:
 *combining test and training data into a single table
 *including only the mean and standard deviation variables in the table
@@ -18,8 +18,8 @@ Below are a list of the variables included in the summary analysis data (“run_
 
 All of the variables except 1 and 2 are numerical variables, normalized and bounded within [-1,1].
 
-Variable list
-————————————————————————————————
+### Variable list
+
 “Variable Number” “Column name”
 "1" "SubjectNumber"
 	Integer variable from 
